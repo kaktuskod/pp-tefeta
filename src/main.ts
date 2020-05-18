@@ -1,2 +1,6 @@
 import fs from 'fs';
-fs.readFileSync('../maps/oval01.map', 'utf8');
+
+function main(mapfile: string = process.argc[2]){
+    const myMap = readFileSync(mapfile, 'utf8').split('\n')
+    
+}
