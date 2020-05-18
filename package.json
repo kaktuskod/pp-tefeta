@@ -1,19 +1,25 @@
 {
-  "name": "pp-tefeta",
+  "name": "Typescript-Template",
   "version": "1.0.0",
-  "description": "", 
-  "main": "maint.ts",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kaktuskod/pp-tefeta.git"
-  },
+  "main": "main.ts",
+  "repository": "https://github.com/kaktuskod/pp-tefeta",
   "author": "Yassine FATIHI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kaktuskod/pp-tefeta/issues"
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn nodemon",
+    "test": "yarn test:static && yarn test:unit",
+    "test:static": "yarn tsc",
+    "test:unit": "yarn jest --config=.jestrc.js"
   },
-  "homepage": "https://github.com/kaktuskod/pp-tefeta#readme"
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.11.1",
+    "jest": "^25.3.0",
+    "nodemon": "^2.0.3",
+    "typescript": "^3.8.3"
+  }
 }
