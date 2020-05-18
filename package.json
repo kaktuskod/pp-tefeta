@@ -1,19 +1,19 @@
 {
   "name": "pp-tefeta",
   "version": "1.0.0",
-  "description": "<p align=\"center\">\r   <img alt=\"\" src=\"./tefeta.logo.png\">\r </p>",
+  "description": "", 
   "main": "maint.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pu-erh/pp-tefeta.git"
+    "url": "https://github.com/kaktuskod/pp-tefeta.git"
   },
   "author": "Yassine FATIHI",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pu-erh/pp-tefeta/issues"
+    "url": "https://github.com/kaktuskod/pp-tefeta/issues"
   },
-  "homepage": "https://github.com/pu-erh/pp-tefeta#readme"
+  "homepage": "https://github.com/kaktuskod/pp-tefeta#readme"
 }
